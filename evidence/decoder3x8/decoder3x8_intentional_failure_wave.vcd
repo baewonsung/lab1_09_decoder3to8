@@ -1,0 +1,51 @@
+$date
+   Sat Sep 12 02:31:32 2026
+$end
+
+$version
+  2026.1
+  $dumpfile ("wave.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module tb_decoder3x8 $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var wire 8 $ o [7:0] $end
+$var integer 32 % n [31:0] $end
+$var integer 32 & checked [31:0] $end
+$var reg 8 ' expected [7:0] $end
+$scope module dut $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 * c $end
+$var wire 8 $ o [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+0#
+b1 $
+b0 %
+b0 &
+b1 '
+0(
+0)
+0*
+$end
+
+#10000
+1#
+b0 $
+b1 %
+b1 &
+b10 '
+1*
